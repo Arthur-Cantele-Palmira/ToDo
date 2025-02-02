@@ -1,0 +1,151 @@
+h1{
+    font-size: 24px;
+    padding-bottom: 7px;
+    padding-left: 2.5%;
+}
+
+#data{
+    font-size: 14px;
+    margin-bottom: 8px;
+    padding-left: 2.5%;
+}
+
+p{
+    font-size: 12px;
+}
+
+#tarefas{
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+#tarefas > div {
+    flex: none;
+}
+
+.criar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#entrada{
+    width: 75%;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: #dedede;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    border-style:none;
+}
+
+#entrada:focus{
+    outline: none;
+}
+
+#novo{
+    width: 35px;
+    height: 35px;
+    margin-left: 2px;
+    color: rgb(255, 255, 255);
+    background-color: #007BFF;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 50%;
+    border-style:none;
+}
+
+#novo:hover{
+    background-color: #437cba;
+}
+
+@media(min-width: 768px){
+    header{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #tarefas{
+        margin-left: 11%;
+        margin-right: 11%;
+        display: flex;
+        height: 70vh;
+        flex-direction: column;
+    }
+
+    .criar{
+        bottom: 0;
+        display: flex;
+    }
+
+    #entrada{
+        width: 75%;
+        height: 35px;
+        padding-left: 10px;
+        font-size: 14px;
+        background-color: #dedede;
+        border-radius: 20px;
+        border-color: white;
+        border-width: 1px;
+        border-style:none;
+    }
+}
+
+
+@media(min-width: 1024px){
+    header{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    h1{
+        font-size: 36px;
+        padding-bottom: 7px;
+        padding-left: 2.5%;
+    }
+    
+    #data{
+        font-size: 16px;
+        margin-bottom: 8px;
+        padding-left: 2.5%;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    #tarefas{
+        margin-left: 21%;
+        margin-right: 21%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .criar{
+        bottom: 0;
+        display: flex;
+    }
+
+    #entrada{
+        width: 55%;
+        height: 35px;
+        padding-left: 10px;
+        font-size: 14px;
+        background-color: #dedede;
+        border-radius: 20px;
+        border-color: white;
+        border-width: 1px;
+        border-style:none;
+    }
+}
+

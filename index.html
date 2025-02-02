@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="shortcut icon" href="IMG/To-Do.ico" type="image/x-icon">
+    <title>To-Do</title>
+</head>
+<body>
+    <header>
+        <h1>Tarefas</h1>
+        <h1></h1>
+        <p id="data"></p>
+    </header>
+    <main>
+        <div id="tarefas">
+        </div>
+    </main>
+    <footer>
+        <form class="criar" onsubmit="return false;">
+            <input type="text" id="entrada" placeholder="Crie sua nova tarefa" name="tarefa">
+            <button id="novo" type="submit" onclick="criarTarefa()">+</button>
+        </form>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>
